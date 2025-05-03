@@ -1,0 +1,6 @@
+@coffre_fort_api_HostAddress = http://localhost:5010
+
+GET {{coffre_fort_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

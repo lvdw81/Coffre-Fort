@@ -1,0 +1,31 @@
+# Fichiers temporaires de Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Fichiers système
+*.log
+*.tmp
+*.temp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Fichiers spécifiques Visual Studio
+*.db
+*.opendb
+*.vsidx
+*.VC.db
+
+# Fichiers de publication
+*.publishsettings
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/

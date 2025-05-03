@@ -1,0 +1,28 @@
+<Window x:Class="coffre_fort2.Views.ConnexionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Connexion" Height="276" Width="400"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Grid Margin="30,30,30,12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Identifiant" Grid.Row="0"/>
+        <TextBox x:Name="IdentifiantBox" Grid.Row="1" Height="30" Margin="0 0 0 15"/>
+
+        <TextBlock Text="Mot de passe" Grid.Row="2"/>
+        <PasswordBox x:Name="PasswordBox" Grid.Row="3" Height="30" Margin="0 0 0 15"/>
+
+        <StackPanel Grid.Row="4">
+            <Button x:Name="ValiderButton" Content="Connexion" Height="30" Width="150"/>
+            <Button x:Name="RetourButton" Content="Retour" Height="30" Width="150" Margin="0 10 0 0"/>
+            <TextBlock Text="{Binding Message}" Foreground="Red" Margin="0 10 0 0" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
