@@ -1,0 +1,502 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\models\\passwordentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\voirmotsdepassepartagesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\voirmotsdepassepartagesview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\voirmotsdepassepartagesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\voirmotsdepassepartagesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\voirmotsdepassepartagesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\voirmotsdepassepartagesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\relaycommandasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\relaycommandasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\partagermotdepasseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\partagermotdepasseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\controllers\\passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\models\\passwordshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:models\\passwordshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\models\\passwordshare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\partagermotdepasseview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\partagermotdepasseview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\entreeformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\entreeformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DB5FD4-8119-C02D-0CA2-AEBCB9E063AA}|..\\coffre_fort_api\\coffre_fort_api.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort_api\\coffre_fort_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\partagermotdepasseview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\partagermotdepasseview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\coffre_fort2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:coffre_fort2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\views\\partagermotdepasseview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:views\\partagermotdepasseview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|c:\\users\\lucas\\downloads\\coffre-fort-master\\coffre-fort-master\\coffre_fort2\\converters\\booltotextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1D3726-B4F9-4C3C-B4D6-B9F82436F384}|coffre_fort2.csproj|solutionrelative:converters\\booltotextconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoirMotsDePassePartagesView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\VoirMotsDePassePartagesView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\VoirMotsDePassePartagesView.xaml.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\VoirMotsDePassePartagesView.xaml.cs",
+              "RelativeToolTip": "Views\\VoirMotsDePassePartagesView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:09:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAGcBAAAAAAAAAIAwwHwBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:21:27.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordEntry.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Models\\PasswordEntry.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Models\\PasswordEntry.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Models\\PasswordEntry.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Models\\PasswordEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:36:09.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VoirMotsDePassePartagesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\VoirMotsDePassePartagesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\VoirMotsDePassePartagesViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\VoirMotsDePassePartagesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\VoirMotsDePassePartagesViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:09:31.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VoirMotsDePassePartagesView.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\VoirMotsDePassePartagesView.xaml",
+              "RelativeDocumentMoniker": "Views\\VoirMotsDePassePartagesView.xaml",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\VoirMotsDePassePartagesView.xaml",
+              "RelativeToolTip": "Views\\VoirMotsDePassePartagesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T12:18:38.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView.xaml",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\MainView.xaml",
+              "RelativeToolTip": "Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T12:18:53.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T15:50:23.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RelayCommandAsync.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\RelayCommandAsync.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommandAsync.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\RelayCommandAsync.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommandAsync.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:52:27.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAN4UAAAAAAAAAAAmwOIUAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-03T13:54:42.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PartagerMotDePasseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\PartagerMotDePasseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\PartagerMotDePasseViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\PartagerMotDePasseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\PartagerMotDePasseViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:04:53.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PasswordShare.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Models\\PasswordShare.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Models\\PasswordShare.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Models\\PasswordShare.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Models\\PasswordShare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:17:58.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:56:36.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordShare.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Models\\PasswordShare.cs",
+              "RelativeDocumentMoniker": "Models\\PasswordShare.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Models\\PasswordShare.cs",
+              "RelativeToolTip": "Models\\PasswordShare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:39:49.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\PasswordController.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Controllers\\PasswordController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\PasswordController.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Controllers\\PasswordController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAtwIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:09:52.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Services\\PasswordService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAIwHwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:04:05.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PartagerMotDePasseView.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml",
+              "RelativeDocumentMoniker": "Views\\PartagerMotDePasseView.xaml",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml",
+              "RelativeToolTip": "Views\\PartagerMotDePasseView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T12:31:05.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:30:08.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:07:33.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:52:58.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EntreeFormView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\EntreeFormView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\EntreeFormView.xaml.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\EntreeFormView.xaml.cs",
+              "RelativeToolTip": "Views\\EntreeFormView.xaml.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:53:01.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:53:02.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\coffre_fort_api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAEsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:52:57.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T13:37:00.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PartagerMotDePasseView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PartagerMotDePasseView.xaml.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml.cs",
+              "RelativeToolTip": "Views\\PartagerMotDePasseView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:29:29.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "coffre_fort_api.csproj",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\coffre_fort_api.csproj",
+              "RelativeDocumentMoniker": "..\\coffre_fort_api\\coffre_fort_api.csproj",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort_api\\coffre_fort_api.csproj",
+              "RelativeToolTip": "..\\coffre_fort_api\\coffre_fort_api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-03T11:57:13.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "coffre_fort2.csproj",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\coffre_fort2.csproj",
+              "RelativeDocumentMoniker": "coffre_fort2.csproj",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\coffre_fort2.csproj",
+              "RelativeToolTip": "coffre_fort2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-03T11:57:02.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PartagerMotDePasseView.xaml",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml",
+              "RelativeDocumentMoniker": "Views\\PartagerMotDePasseView.xaml",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Views\\PartagerMotDePasseView.xaml",
+              "RelativeToolTip": "Views\\PartagerMotDePasseView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-03T12:30:52.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T12:06:45.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BoolToTextConverter.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Converters\\BoolToTextConverter.cs",
+              "RelativeDocumentMoniker": "Converters\\BoolToTextConverter.cs",
+              "ToolTip": "C:\\Users\\lucas\\Downloads\\Coffre-Fort-master\\Coffre-Fort-master\\coffre_fort2\\Converters\\BoolToTextConverter.cs",
+              "RelativeToolTip": "Converters\\BoolToTextConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:57:08.463Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

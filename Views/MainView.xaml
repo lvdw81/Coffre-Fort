@@ -1,0 +1,58 @@
+<Window x:Class="coffre_fort2.Views.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:coffre_fort2.Converters"
+        Title="Coffre fort" Height="500" Width="843"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <local:BoolToTextConverter x:Key="BoolToEyeConverter"/>
+    </Window.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Liste des entrees -->
+        <ListView x:Name="ListViewMotsDePasse"
+                  ItemsSource="{Binding Entrees}"
+                  SelectedItem="{Binding EntreeSelectionnee}"
+                  Margin="0 10 0 10"
+                  GridViewColumnHeader.Click="GridViewColumnHeader_Click">
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Tags" DisplayMemberBinding="{Binding TagsAffiche}" Width="150"/>
+                    <GridViewColumn Header="Nom" DisplayMemberBinding="{Binding NomApplication}" Width="120"/>
+                    <GridViewColumn Header="Identifiant" DisplayMemberBinding="{Binding Identifiant}" Width="120"/>
+                    <GridViewColumn Header="Mot de passe" Width="180">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding MotDePasseVisible}" Width="100"/>
+                                    <Button Content="{Binding AfficherMotDePasse, Converter={StaticResource BoolToEyeConverter}}"
+                                            Width="60" Margin="10 0 0 0"
+                                            Command="{Binding DataContext.ToggleMotDePasseCommande, RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <!-- Boutons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Ajouter" Width="100" Command="{Binding AjouterCommande}" Margin="0 0 10 0"/>
+            <Button Content="Modifier" Width="100" Command="{Binding ModifierCommande}" Margin="0 0 10 0"/>
+            <Button Content="Supprimer" Width="100" Command="{Binding SupprimerCommande}" Margin="0 0 10 0"/>
+            <Button Content="Exporter" Width="100" Command="{Binding ExporterCommande}"/>
+            <Button Content="Importer" Width="100" Command="{Binding ImporterCommande}" Margin="0 0 10 0"/>
+            <Button Content="Partager" Command="{Binding OuvrirFenetrePartageCommande}" CommandParameter="{Binding EntreeSelectionnee}" Width="100" Height="30" Margin="0 0 10 0"/>
+            <Button Content="Voir partages" Width="120" Command="{Binding ViewSharedPasswordsCommand}"/>
+        </StackPanel>
+    </Grid>
+</Window>

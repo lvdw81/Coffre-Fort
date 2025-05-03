@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPasswordEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PasswordEntry>
+    <Id>1</Id>
+    <NomApplication>tesds</NomApplication>
+    <Identifiant>tesds</Identifiant>
+    <MotDePasse>tesds</MotDePasse>
+    <Tags>
+      <string>tesds</string>
+    </Tags>
+    <Utilisateur />
+    <UtilisateurId>1</UtilisateurId>
+    <AfficherMotDePasse>false</AfficherMotDePasse>
+  </PasswordEntry>
+</ArrayOfPasswordEntry>
