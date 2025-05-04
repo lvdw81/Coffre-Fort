@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Text.RegularExpressions;
+using System.Windows;
 using coffre_fort2.ViewModels;
 
 namespace coffre_fort2.Views
@@ -18,6 +19,13 @@ namespace coffre_fort2.Views
                 _viewModel.Identifiant = IdentifiantBox.Text;
                 _viewModel.MotDePasse = PasswordBox.Password;
 
+                // Vérifie que l'identifiant est une adresse Gmail valide
+                if (!Regex.IsMatch(_viewModel.Identifiant, @"^[^@\s]+@gmail\.com$", RegexOptions.IgnoreCase))
+                {
+                    MessageBox.Show("L'identifiant doit être une adresse @gmail.com.");
+                    return;
+                }
+
                 await _viewModel.ExecuterCreation();
 
                 if (_viewModel.Message == "Compte cree avec succes")
@@ -32,8 +40,11 @@ namespace coffre_fort2.Views
                     MessageBox.Show(_viewModel.Message);
                 }
             };
+        
 
-            RetourButton.Click += (s, e) =>
+
+
+        RetourButton.Click += (s, e) =>
             {
                 var retourAccueil = new AccueilView();
                 retourAccueil.Show();

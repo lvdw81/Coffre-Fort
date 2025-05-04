@@ -23,9 +23,13 @@ namespace coffre_fort2.Views
 
                 if (connexionReussie)
                 {
-                    MessageBox.Show("Connexion reussie !");
-                    var main = new MainView(_viewModel.Identifiant, _viewModel.JwtToken);
-                    main.Show();
+                    // On ne va plus vers MainView directement
+                    // On passe à l'étape 2FA
+                    Application.Current.Properties["email_temp"] = _viewModel.Identifiant;
+
+                    var a2fWindow = new A2FView();
+                    a2fWindow.Show();
+
                     this.Close();
                 }
                 else

@@ -3,9 +3,22 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Mots de passe partages"
         Height="450" Width="700"
-        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#f4f4f4"
+        WindowStyle="SingleBorderWindow">
 
-    <Grid Margin="20">
+    <Window.Resources>
+        <!-- Style moderne pour ListView -->
+        <Style TargetType="ListView">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush" Value="#ccc"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="White" CornerRadius="10" Padding="20" Margin="20">
         <ListView ItemsSource="{Binding MotsDePassePartages}">
             <ListView.View>
                 <GridView>
@@ -16,5 +29,5 @@
                 </GridView>
             </ListView.View>
         </ListView>
-    </Grid>
+    </Border>
 </Window>

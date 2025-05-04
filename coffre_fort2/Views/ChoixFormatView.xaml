@@ -4,11 +4,54 @@
         Title="Choix du format"
         WindowStartupLocation="CenterOwner"
         ResizeMode="NoResize"
-        Height="180" Width="300">
+        Height="250" Width="350"
+        Background="#f4f4f4"
+        WindowStyle="SingleBorderWindow">
 
-	<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-		<TextBlock Text="Quel format souhaitez-vous utiliser ?" Margin="10" FontWeight="Bold" TextAlignment="Center"/>
-		<Button Content="Exporter en CSV" Click="ExporterCsv_Click" Margin="10"/>
-        <Button Content="Exporter en XML" Click="ExporterXml_Click" Margin="10"/>
-    </StackPanel>
+    <Window.Resources>
+        <!-- Style de bouton moderne -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#0078D7"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#005a9e"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="White" CornerRadius="10" Padding="20" Margin="10">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="240">
+            <TextBlock Text="Quel format souhaitez-vous utiliser ?"
+                       Margin="0 0 0 20"
+                       FontWeight="Bold"
+                       TextAlignment="Center"
+                       FontSize="14"
+                       Foreground="#333"/>
+
+            <Button Content="Exporter en CSV"
+                    Click="ExporterCsv_Click"
+                    Style="{StaticResource RoundedButtonStyle}"/>
+
+            <Button Content="Exporter en XML"
+                    Click="ExporterXml_Click"
+                    Style="{StaticResource RoundedButtonStyle}"/>
+        </StackPanel>
+    </Border>
 </Window>

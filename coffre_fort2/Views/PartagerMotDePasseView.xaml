@@ -4,37 +4,87 @@
         Title="Partager un mot de passe"
         Height="200" Width="400"
         WindowStartupLocation="CenterScreen"
-        ResizeMode="NoResize">
-    <Grid Margin="20">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+        ResizeMode="NoResize"
+        Background="#f4f4f4"
+        WindowStyle="SingleBorderWindow">
 
-        <!-- Libelle -->
-        <TextBlock Text="Nom de l'utilisateur cible :" 
-                   Grid.Row="0" 
-                   Margin="0,0,0,5" 
-                   FontWeight="SemiBold"/>
+    <Window.Resources>
+        <!-- Style de TextBox moderne -->
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="BorderBrush" Value="#ccc"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
 
-        <!-- Champ de saisie -->
-        <TextBox Grid.Row="1" 
-                 Height="30"
-                 Text="{Binding NomUtilisateurCible, UpdateSourceTrigger=PropertyChanged}" 
-                 Margin="0,0,0,10"/>
+        <!-- Style de bouton arrondi -->
+        <Style x:Key="RoundedButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#0078D7"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Margin" Value="0 0 10 0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border"
+                                Background="{TemplateBinding Background}"
+                                CornerRadius="6"
+                                Padding="6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#005a9e"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
-        <!-- Boutons -->
-        <StackPanel Grid.Row="2" 
-                    Orientation="Horizontal" 
-                    HorizontalAlignment="Right">
-            <Button Content="Partager" 
-                    Width="100" 
-                    Margin="0,0,10,0" 
-                    Command="{Binding PartagerCommande}"/>
-            <Button Content="Annuler" 
-                    Width="100" 
-                    Command="{Binding AnnulerCommande}"/>
-        </StackPanel>
-    </Grid>
+        <!-- Variante bouton secondaire -->
+        <Style x:Key="SecondaryButtonStyle" TargetType="Button" BasedOn="{StaticResource RoundedButtonStyle}">
+            <Setter Property="Background" Value="#E5E5E5"/>
+            <Setter Property="Foreground" Value="#333"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="White" CornerRadius="10" Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Nom de l'utilisateur cible :" 
+                       Grid.Row="0" 
+                       Margin="0 0 0 5"
+                       FontWeight="SemiBold"
+                       FontSize="14"
+                       Foreground="#333"/>
+
+            <!-- Champ de saisie -->
+            <TextBox Grid.Row="1"
+                     Height="30"
+                     Margin="0 0 0 10"
+                     Text="{Binding NomUtilisateurCible, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <!-- Boutons -->
+            <StackPanel Grid.Row="2"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Right">
+                <Button Content="Partager"
+                        Command="{Binding PartagerCommande}"
+                        Style="{StaticResource RoundedButtonStyle}"/>
+                <Button Content="Annuler"
+                        Command="{Binding AnnulerCommande}"
+                        Style="{StaticResource SecondaryButtonStyle}"/>
+            </StackPanel>
+        </Grid>
+    </Border>
 </Window>

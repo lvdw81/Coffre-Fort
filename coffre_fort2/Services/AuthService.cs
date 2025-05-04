@@ -31,30 +31,29 @@ namespace coffre_fort2.Services
 
             var json = JsonSerializer.Serialize(loginData);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-           
-
 
             try
             {
                 var response = await _httpClient.PostAsync("/api/auth/login", content);
+
+                // Debug : affiche le statut et le corps brut
+                Console.WriteLine("Status: " + response.StatusCode);
+                var responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine("Réponse brute : " + responseContent);
+
                 if (!response.IsSuccessStatusCode)
                     return false;
 
-                var responseContent = await response.Content.ReadAsStringAsync();
-                var jsonDoc = JsonDocument.Parse(responseContent);
-                JwtToken = jsonDoc.RootElement.GetProperty("token").GetString();
-                Console.WriteLine("Token recu : " + JwtToken);
-
-                _httpClient.DefaultRequestHeaders.Authorization =
-                    new AuthenticationHeaderValue("Bearer", JwtToken);
-
+                // Plus aucun token ici — juste vérifier que la réponse contient bien l'identifiant ou message attendu
                 return true;
             }
-            catch
+            catch (Exception ex)
             {
+                Console.WriteLine("Exception : " + ex.Message);
                 return false;
             }
         }
+
 
         // Creation de compte via l'API
         public async Task<string> RegisterAsync(string identifiant, string motDePasse)
