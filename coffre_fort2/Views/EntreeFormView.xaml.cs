@@ -79,7 +79,7 @@ namespace coffre_fort2.Views
                 MessageBox.Show("Les champs Nom, Identifiant et Mot de passe sont obligatoires.");
                 return;
             }
-            MessageBox.Show($"DEBUG NomApplication : '{Entree.NomApplication}'");
+            
 
 
             Entree.Tags = TagsActifs

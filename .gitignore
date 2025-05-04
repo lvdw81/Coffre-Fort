@@ -17,7 +17,7 @@ Thumbs.db
 Desktop.ini
 
 # Fichiers spécifiques Visual Studio
-*.db
+
 *.opendb
 *.vsidx
 *.VC.db
